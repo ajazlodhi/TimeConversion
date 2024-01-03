@@ -7,7 +7,7 @@ public class TimeConverter {
         return calculateHours + "H " + reminingMinutes + "M " + remainingSeconds + " S";
     }
     public static String timeConcert(){
-        return timeConvert(36000);
+        return timeConvert(36250);
     }
     public static void main(String[] args){
         String result = timeConcert();
